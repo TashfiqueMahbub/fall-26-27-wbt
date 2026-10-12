@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form method="post">
+        <h2>Donor Information</h2>
+        <table>
+            <tr>
+                <td><label for="First name">First Name:*</label></td>
+                <td><input type="text" id="First name" name="First name"></td>
+            </tr>
+            <tr>
+                <td><label for="Last name">Last Name:*</label></td>
+                <td><input type="text" id="Last name" name="Last name"></td>
+            </tr>
+            <tr>
+                <td><label for="company">Company:</label></td>
+                <td><input type="text" id="company" name="company"></td>
+            </tr>
+            <tr>
+                <td><label for="Address1">Address 1*:</label></td>
+                <td><input type="text" id="Address1" name="Address1"></td>
+            </tr>
+            <tr>
+                <td><label for="Address2">Address 2:</label></td>
+                <td><input type="text" id="Address2" name="Address2"></td>
+            </tr>
+            <tr>
+                <td><label for="City">City:*</label></td>
+                <td><input type="text" id="City" name="City"></td>
+            </tr>
+            <tr>
+                <td><label for="State">State:*</label></td>
+                <td><select id="State" name="State">
+                        <option value="D">Select any state u want</option>
+                        <option value="CTG">Chittagong</option>
+                        <option value="CND">Chandpur</option>
+                        <option value="DHA">Dhaka</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="Zip">Zip:*</label></td>
+                <td><input type="number" id="Zip" name="Zip"></td>
+            </tr>
+            <tr>
+                <td><label for="Country">Country:*</label></td>
+                <td><select id="Country" name="Country">
+                        <option value="BD">Bangladesh</option>
+                        <option value="USA">USA</option>
+                        <option value="WK">Wakanda</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="Phone">Phone:</label></td>
+                <td><input type="tel" id="Phone" name="Phone"></td>
+            </tr>
+            <tr>
+                <td><label for="Fax">Fax:</label></td>
+                <td><input type="tel" id="Fax" name="Fax"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email:*</label></td>
+                <td><input type="email" id="Email" name="Email"></td>
+            </tr>
+            <tr>
+                <td><label>Donation Amount:*</label><br>
+                    <p>Check a button or type in your amount</p>
+                </td>
+                <td><input type="radio" name="donation" value="none">None
+                    <input type="radio" name="donation" value="$50">$50
+                    <input type="radio" name="donation" value="$75">$75
+                    <input type="radio" name="donation" value="$100">$100
+                    <input type="radio" name="donation" value="$250">$250
+                    <input type="radio" name="donation" value="Other">Other
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="Other">Other AMount $</label><input type="number" id="Other" name="Other"></td>
+            </tr>
+            <tr>
+                <td><label>Recurring Donation</label>
+                    <p>Check if yes</p>
+                </td>
+                <td>
+                    <input type="checkbox" value="check">I am interested in giving on a regular basis
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="rec">Monthly Credit Card $</label>
+                    <textarea id="rec" rows="1" cols="5"></textarea>For
+                    <textarea id="rec" rows="1" cols="5"></textarea>Months
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
